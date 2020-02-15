@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body {
+    line-height: 1;
+    height:100vh;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width:100%;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 99;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px 0px;
+    
+}
+
+header ul li a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin:0 50px;
+    font-size: 1.3em;
+    font-weight: 300;
+    border-bottom: 2px solid rgb(255,7,110);
+    
+}
+header ul li a:hover{
+    background-color:#00b896;
+    color:white;
+    padding: 20px;
+    transition: all .3s ease-in-out;
+    border-bottom: 0px;
+}
+.hero-image{
+    background: url("6.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.home{
+    color: #ffffff;
+    padding:0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50vh;
+}
+
+.home h1{
+    font-size: 4.5em;
+    text-transform: uppercase;
+    text-shadow: 0 15px 20px #000000b0;
+    margin-bottom: 0;
+    
+}
+.home h5{
+    
+    font-size: 2em;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px 0 50px;
+    display:inline-block;
+    letter-spacing:2px;
+    border-radius: 2px;
+    
+
+}
+.section-tite{
+    text-align: center;
+}
+.section-tite h2{
+    display: inline-block;
+    font-size: 28px;
+    border-bottom:1px solid;
+    text-transform: uppercase;
+    padding: 0 0 10px;
+    z-index: 99;
+}
+
+.about{
+    margin-top:8%;
+}
+.about-back{
+    background: url("8.jpg") no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+}
+
+
+.about-detail{
+     
+    width: 60vw;
+    height:60vh;
+    border-radius: 10px;
+    justify-content: center;
+    margin:auto;
+    padding: 25px 0;
+    text-align: center;
+    
+    box-shadow: 0 2px 2px red;
+
+    background-color: white;
+    
+    border: 5px solid rgb(255,7,110);
+    align-items:center;
+    flex-direction:row;
+}
+.about-info p{
+    line-height: 28px;
+    font-size: 18px;
+    color:black;
+    padding: 10px;
+}
+.about-info img{
+    width: 40%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.contact{
+    
+    width: 60%;
+    margin:0 auto;
+    justify-content: center;
+    padding: 50px 0;
+    z-index: 99;
+    
+}
+
+.contact-info{
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    margin:40px 0;
+}
+.contact-info .textfield{
+    width: 80%;
+    height: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 15px 15px;
+    margin-left:8%;
+    margin-bottom: 15px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    
+
+}
+.contact-title{
+    width:80%;
+    margin-top: 8%;
+    margin-left:8%;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    text-align: center;
+}
+.contact-info .messageField{
+    height:190px;
+
+}
+
+.contact-info .submitButton{
+    background-color: magenta;
+    color: #000;
+    height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.contact-back{
+    background: url("2.jpeg") no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    
+}
+
+#paricled-js{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.achievements-back{
+    background: url("7.jpg") no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    height:100vh;
+}
+.achievements{
+    display: flex;
+    width:50vw;
+    margin:auto;
+    height:70vh;
+    justify-content: center;
+    transition: 0.5s ease;
+}
+.card1, .card2{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: ;
+        
+    font-family: roboto;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.9);
+    text-align: center;
+    margin-top:150px;
+    margin-right: 50px;
+    
+    
+}
+
+.skill-type{
+    color:white;
+    background-color:rgb(255,7,110);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height:50px;
+    text-align: center;
+    padding:15px;
+    
+}
+.skills{
+    color:black;
+    text-align: center;
+    margin:auto;
+    padding:20px;
+    font-size: 1.5em;
+    margin-top: -50%;
+    line-height: 1.7;
+}
